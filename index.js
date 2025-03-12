@@ -1,5 +1,5 @@
 const server = process.env.SERVER_IP;
-const port = process.env.SERVER_PORT || || 3001;
+const port = process.env.SERVER_PORT || 3001;
 const express = require("express");
 const app = express();
 var exec = require("child_process").exec;
